@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  background-image: url("assets/bgd.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  color: white; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero h2 {
+  font-size: 1rem;
+}
+
+.hero p {
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  /* Adjustments for laptops and larger screens */
+  .hero {
+      height: 100vh;
+  }
+div.scrollmenu{
+background-color: #ffffff;
+}
+div.scrollmenu a {
+color: black;
+font-size:20px;
+
+
+}
+.im{
+position: absolute;
+top: 8px;
+right: 16px;
+}
+.hero button {
+background-color: #ffbb00; 
+}}
